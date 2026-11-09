@@ -1,0 +1,50 @@
+{
+  "name": "sara-check",
+  "version": "0.2.0",
+  "description": "SARA (Script-Aware Robustness Assertions): property-based oracles that find Thai (complex-script) text-handling bugs in width, truncate, slice, wrap and slug functions",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "sara": "./bin/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "src/index.mjs",
+    "src/thai.mjs",
+    "src/props.mjs",
+    "src/selftest.mjs",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node src/selftest.mjs"
+  },
+  "private": true,
+  "author": "Badeesorn Sittikong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamamind47/sara.git"
+  },
+  "homepage": "https://github.com/mamamind47/sara#readme",
+  "bugs": {
+    "url": "https://github.com/mamamind47/sara/issues"
+  },
+  "keywords": [
+    "thai",
+    "unicode",
+    "grapheme",
+    "wcwidth",
+    "string-width",
+    "truncate",
+    "wrap",
+    "property-based-testing",
+    "test-oracle",
+    "i18n"
+  ]
+}
