@@ -94,7 +94,7 @@ Exit code is 0 when no counted failure was found, 1 when there are failures, and
 SARA was built for the paper *Where the vowels go wrong: a taxonomy of Thai script-level text-handling bugs
 and a property-based oracle that finds them* (Badeesorn Sittikong, under review). The corpus of 503 coded
 reports, the pre-registered evaluation protocol, the recall and discovery scripts and their results are
-archived separately on Zenodo: [DOI]. That archive contains SARA v0.2.0, the version the paper evaluates.
+archived separately on Zenodo: https://doi.org/10.5281/zenodo.24102745. That archive contains SARA v0.2.0, the version the paper evaluates.
 
 ## License
 MIT © 2026 Badeesorn Sittikong. See `LICENSE`.
